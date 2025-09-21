@@ -1,0 +1,3 @@
+[submodule "src/safeplan_ros2/safeplan"]
+	path = src/safeplan_ros2/safeplan
+	url = git@github.com:jatinarora30/safeplan.git
