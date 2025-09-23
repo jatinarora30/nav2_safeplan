@@ -5,9 +5,9 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='safeplan_ros2',
-            executable='safeplan_ros2',
+            executable='safeplan_ros2_node',
             name='safeplan_ros2',
-            parameters=[{'yaml_path': 'config/algos.yaml'}],
-            output='screen'
+            output='screen',
+            parameters=[{'yaml_path': 'config/algos.yaml'}]
         )
     ])

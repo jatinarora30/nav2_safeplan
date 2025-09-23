@@ -1,4 +1,4 @@
-active_algo: UPP
+active_algo: OptimizedAStar
 
 algoDetails:
   - name: AStar

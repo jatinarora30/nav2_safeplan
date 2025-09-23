@@ -1,10 +1,12 @@
 from setuptools import find_packages, setup
 
+from setuptools import setup
+import os
+from glob import glob
+
 package_name = 'safeplan_ros2'
 
-from setuptools import setup
 
-package_name = 'safe_plan_benchmark'
 
 setup(
     name=package_name,
@@ -23,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'safe_planner_node = safe_plan_benchmark.safe_planner_node:main'
+            'safeplan_ros2_node = safeplan_ros2.safeplan_ros2_node:main'
         ],
     },
 )

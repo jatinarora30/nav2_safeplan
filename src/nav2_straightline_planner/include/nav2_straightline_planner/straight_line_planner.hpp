@@ -65,6 +65,7 @@ private:
 
   // binary map
   int  binary_map[10000][10000];
+   nav_msgs::msg::Path latest_plan_;
   int width=0;
   int height=0;
   int threshold=100;
