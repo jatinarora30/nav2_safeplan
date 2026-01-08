@@ -1,3 +1,0 @@
-[console_scripts]
-safeplan_ros2_node = safeplan_ros2.safeplan_ros2_node:main
-
