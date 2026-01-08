@@ -6,7 +6,6 @@ from safeplan.algos.sdf_astar import SDFAStar
 from safeplan.algos.cbf_rrt import CBFRRT
 from safeplan.algos.optimized_astar import OptimizedAStar
 from safeplan.algos.fs_planner import FSPlanner
-from safeplan.algos.safe_astar import SafeAStar
 
 def planner_factory(name, args):
     if name == 'AStar':
@@ -23,8 +22,6 @@ def planner_factory(name, args):
         return SDFAStar(**args)
     elif name == 'OptimizedAStar':
         return OptimizedAStar(**args)
-    elif name == 'SafeAStar':
-        return SafeAStar(**args)
     elif name == 'VoronoiPlanner':
         return VoronoiPlanner(**args)
     else:

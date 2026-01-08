@@ -1,5 +1,5 @@
 # nav2_safeplan
-nav2_safeplan is a ros2 package integrated with nav2 to run global planner from safeplan benchmark based on config
+nav2_safeplan is a ros2 package integrated with nav2 to run global planner from planners based on config
  
 To run the code:
 
